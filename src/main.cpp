@@ -1,7 +1,7 @@
 #include <limits>
 #include <iostream>
 #include <string>
-#include "ship_cost.hpp"
+#include "fig0212.hpp"
 
 // 明确声明需要哪些元素
 using std::cin;
@@ -22,6 +22,6 @@ int main(int argc, char *argv[]) {
     // 使用自定义枚举
     difficulty myDifficulty = EASY;
 
-    cout << "Game Over v3, " << 7 / 3.0 << ", intMax: " << intMax << ", myDifficulty: " << myDifficulty << fn01() << endl;
+    cout << "Game Over v3, " << 7 / 3.0 << ", intMax: " << intMax << ", myDifficulty: " << myDifficulty << run() << endl;
     return 0;
 }

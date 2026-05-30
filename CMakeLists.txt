@@ -8,6 +8,5 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE "Debug")
 
-# build target 放到target目录中
-# add_executable(target/a.out ${DIR_SRCS})
+# 添加子目录 src，CMake 会去 src 目录下寻找另一个 CMakeLists.txt
 add_subdirectory(src)
