@@ -1,5 +1,6 @@
 // 随机数生成相关
 #include <cstdlib>
+// 时间相关
 #include <ctime>
 #include <iostream>
 
