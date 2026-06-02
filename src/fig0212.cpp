@@ -8,7 +8,7 @@ using namespace std;
 
 // 演示随机数的生成
 int run() {
-    // 基于当前日期、时间作为随机种子
+    // 基于当前日期、时间作为随机种子，若不设随机种子，则每次生成的随机数相同
     srand(static_cast<unsigned int>(time(0)));
     // 生成0～32737之间的随机整数
     int randomNumber = rand();

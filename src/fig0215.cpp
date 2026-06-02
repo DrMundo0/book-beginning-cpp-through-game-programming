@@ -1,3 +1,4 @@
+// 随机数生成相关
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
