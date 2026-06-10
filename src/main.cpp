@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-#include "fig0303.hpp"
+#include "fig0304.hpp"
 
 // 明确声明需要哪些元素
 using std::cin;
@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
     difficulty myDifficulty = EASY;
 
     cout << "Game Over v3, " << 7 / 3.0 << ", intMax: " << intMax << ", myDifficulty: " << myDifficulty << endl;
-    Fig0303::startup();
+    Fig0304::startup();
 
     return 0;
 }
